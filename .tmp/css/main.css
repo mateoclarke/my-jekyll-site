@@ -1,0 +1,322 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+/* Global Reset */
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Hammersmith+One|PT+Sans+Caption:400,700);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\000038}}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000313}}
+html, body {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000315}}
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000322}}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000325}}
+h1 {
+  margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000326}}
+p {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000328}}
+a {
+  color: #00a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000329}}
+a:hover {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000330}}
+a:visited {
+  color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000337}}
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000342}}
+.posts li {
+  line-height: 1.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000346}}
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%; }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000358}}
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000366}}
+.header a {
+  font-weight: bold;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000371}}
+.title {
+  display: inline-block;
+  margin-bottom: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000376}}
+.title a {
+  color: #a00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000380}}
+.title a:hover {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000384}}
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000389}}
+.header a.extra:hover {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000393}}
+.meta {
+  color: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\0000397}}
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003105}}
+.footer .contact {
+  float: left;
+  margin-right: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003110}}
+.footer .contact a {
+  color: #8085C1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003114}}
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003120}}
+.footer .rss img {
+  border: 0; }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003131}}
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003137}}
+.post ul, .post ol {
+  margin-left: 1.35em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003141}}
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003147}}
+.post pre code {
+  border: none; }
+
+/* terminal */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003152}}
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/main\.scss}line{font-family:\00003158}}
+.post pre.terminal code {
+  background-color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\000037}}
+.font1 {
+  font-family: "Hammersmith One", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\000039}}
+.font2 {
+  font-family: "Quicksand", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000311}}
+.font3 {
+  font-family: "PT Sans Caption", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000316}}
+.navbar {
+  border-radius: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000320}}
+.font-samples {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000326}}
+header {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000329}}
+h1.brand {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000331}}
+  h1.brand a {
+    font-family: "Hammersmith One", sans-serif;
+    text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000337}}
+.global-nav {
+  clear: both;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000340}}
+  .global-nav a {
+    font-family: "Quicksand", sans-serif;
+    margin: 0px 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000348}}
+.title {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000351}}
+.title h1 {
+  font-family: "Quicksand", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000354}}
+.title-lead {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000359}}
+.bio-body {
+  float: left;
+  font-family: "PT Sans Caption", sans-serif;
+  margin: 30px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000364}}
+.bio-body-text {
+  padding: 10px 0 0 150px;
+  font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000371}}
+.footer {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000374}}
+.contact-items {
+  list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000376}}
+  .contact-items li {
+    display: inline;
+    padding: 0 0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/styles\.scss}line{font-family:\0000381}}
+.contact {
+  text-align: center;
+  margin: 25px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\000031}}
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-image: url(/img/mks_portrait.jpg);
+  background-size: auto 173.2051px;
+  background-position: center;
+  float: left;
+  clear: both;
+  margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000316}}
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px; }
+
+/*counter transform the bg image on the caps*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000331}}
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000346}}
+.hexTop {
+  top: -53.0330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000350}}
+.hexTop:after {
+  background-position: center top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000354}}
+.hexBottom {
+  bottom: -53.0330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000358}}
+.hexBottom:after {
+  background-position: center bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000362}}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit; }

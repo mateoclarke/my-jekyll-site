@@ -1,0 +1,66 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\000031}}
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-image: url(/img/mks_portrait.jpg);
+  background-size: auto 173.2051px;
+  background-position: center;
+  float: left;
+  clear: both;
+  margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000316}}
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px; }
+
+/*counter transform the bg image on the caps*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000331}}
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000346}}
+.hexTop {
+  top: -53.0330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000350}}
+.hexTop:after {
+  background-position: center top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000354}}
+.hexBottom {
+  bottom: -53.0330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000358}}
+.hexBottom:after {
+  background-position: center bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mateo\/coding_projects\/my-jekyll-site\/app\/_scss\/hexagon\.scss}line{font-family:\0000362}}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit; }
